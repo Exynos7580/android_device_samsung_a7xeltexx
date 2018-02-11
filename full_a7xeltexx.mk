@@ -18,12 +18,12 @@
 PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/samsung/a5xeltexx/device.mk)
+$(call inherit-product, device/samsung/a7xeltexx/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := a5xeltexx
-PRODUCT_DEVICE := a5xelte
+PRODUCT_NAME := a7xeltexx
+PRODUCT_DEVICE := a7xelte
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-A510F
+PRODUCT_MODEL := SM-A710F
